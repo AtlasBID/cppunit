@@ -5,7 +5,7 @@
 
 PACKAGE          = cppunit
 
-PACKAGE_NOCC=1
+PACKAGE_NOCC=0
 
 PACKAGE_DEP = TestPolicy
 

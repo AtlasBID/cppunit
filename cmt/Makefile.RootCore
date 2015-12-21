@@ -1,0 +1,18 @@
+#
+# Basically a copy of the LibreOffice CppUnit - just enough
+# to build for bid Combination code.
+#
+
+PACKAGE          = cppunit
+
+PACKAGE_NOCC=1
+
+PACKAGE_DEP = TestPolicy
+
+PACKAGE_CXXFLAGS =
+PACKAGE_LDFLAGS  =
+PACKAGE_PRELOAD  =
+
+PACKAGE_PEDANTIC = 1
+
+include $(ROOTCOREDIR)/Makefile-common
